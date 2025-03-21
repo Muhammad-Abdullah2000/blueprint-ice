@@ -464,8 +464,8 @@ class NetworkProviderBuilder {
             tc = new TonClient({
                 endpoint:
                     network === 'mainnet'
-                        ? 'https://toncenter.com/api/v2/jsonRPC'
-                        : 'https://testnet.toncenter.com/api/v2/jsonRPC',
+                        ? 'https://api.testnet.ice.io'
+                        : 'https://api.testnet.ice.io/indexer/v2',
                 httpAdapter,
             });
         }
